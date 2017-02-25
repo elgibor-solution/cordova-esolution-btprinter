@@ -1,5 +1,5 @@
 Install:
-<plugin name="com.esolution.btprinter" spec="https://github.com/frozenmaiden/cordova-esolution-btprinter.git" source="git" />
+<plugin spec="https://github.com/frozenmaiden/cordova-esolution-btprinter.git" source="git" />
 
 Function:
 
