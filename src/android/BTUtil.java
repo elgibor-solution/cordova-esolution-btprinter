@@ -8,10 +8,10 @@ public class BTUtil {
   }
 
   public static int getStringResource(Context context, String resourceName) {
-    return DatecsUtil.getResource(context, resourceName, "string");
+    return BTUtil.getResource(context, resourceName, "string");
   }
 
   public static String getStringFromStringResource(Context context, String resourceName) {
-    return context.getString(DatecsUtil.getStringResource(context, resourceName));
+    return context.getString(BTUtil.getStringResource(context, resourceName));
   }
 }
