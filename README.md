@@ -1,7 +1,9 @@
-Install:
+## Install:
+```javascript
 <plugin spec="https://github.com/frozenmaiden/cordova-esolution-btprinter.git" source="git" />
+```
 
-Function:
+## Function:
 
 - listBluetoothDevices(): will give you a list of all the already previously paired bluetooth devices
 - connect(address): this will establish the bluetooth connection with the selected printer (you need pass the address attribute of the selected device)
@@ -14,7 +16,7 @@ Function:
     4- Alignment code (you can find the codes here)
 - printBarcode(barcodeType, barcodeData): this will print a barcode accordingly to the given type and data
 
-Tags:
+## Tags:
 
 - {reset} Reset to default settings.
 - {br} Line break. Equivalent of new line.
@@ -28,8 +30,9 @@ Tags:
 - {center} Aligns text to the center of paper.
 - {right} Aligns text to the right paper edge.
 
-Contoh:
+## Contoh:
 
+```javascript
 //List Bluetooth Devices
 window.BTPrinter.listBluetoothDevices(
   function(devices) {
@@ -59,3 +62,4 @@ window.BTPrinter.listBluetoothDevices(
     alert("Printer tidak ditemukan, silahkan sambungkan printer anda terlebih dahulu.");
   }
 );
+```
