@@ -8,6 +8,10 @@
       "android"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frozenmaiden/cordova-esolution-btprinter"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",

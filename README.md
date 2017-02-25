@@ -1,3 +1,6 @@
+Install:
+<plugin name="com.esolution.btprinter" spec="https://github.com/frozenmaiden/cordova-esolution-btprinter.git" source="git" />
+
 Function:
 
 - listBluetoothDevices(): will give you a list of all the already previously paired bluetooth devices
