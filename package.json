@@ -1,0 +1,27 @@
+{
+  "name": "cordova-esolution-btprinter",
+  "version": "0.5.1",
+  "description": "Cordova Bluetooth Printer Plugin",
+  "cordova": {
+    "id": "cordova-esolution-btprinter",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "esolution",
+    "printer",
+    "bluetooth"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "author": "E-Solution",
+  "license": "MIT"
+}
