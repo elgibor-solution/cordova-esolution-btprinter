@@ -19,7 +19,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="BTPrinter">
-                <param name="android-package" value="com.esolution.btprinter"/>
+                <param name="android-package" value="com.esolution.btprinter.BTPrinter"/>
             </feature>
         </config-file>
 

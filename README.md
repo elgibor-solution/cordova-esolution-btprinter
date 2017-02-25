@@ -32,7 +32,7 @@ Contoh:
 
 //List Bluetooth Devices
 window.BTPrinter.listBluetoothDevices(
-  function(devices) => {
+  function(devices) {
 
     console.log(devices);
 

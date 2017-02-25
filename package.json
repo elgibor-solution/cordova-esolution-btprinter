@@ -1,6 +1,6 @@
 {
   "name": "cordova-esolution-btprinter",
-  "version": "0.5.1",
+  "version": "0.0.1",
   "description": "Cordova Bluetooth Printer Plugin",
   "cordova": {
     "id": "cordova-esolution-btprinter",
